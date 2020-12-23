@@ -1,0 +1,125 @@
+html,
+body {
+  max-width: 100%;
+  height:auto!important;
+  margin: 0;
+  //background-color: var(--global-light) !important ;
+  //color: var(--global-dark) !important;
+
+}
+
+* {
+  //font-size: 16px;
+  line-height: 1.25;
+  box-sizing: border-box;
+  //padding: 0;
+  //margin:0;
+}
+a {
+  outline:none !important;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration : none !important;
+  cursor: pointer !important;
+
+}
+
+.btn-hover:hover{
+
+  opacity : 0.7 !important;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+
+
+.txtwrap {
+  white-space: pre-wrap;
+  //overflow-x: hidden;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+input {
+  padding: 1.15rem 1.25rem !important;
+
+}
+
+.form-control:focus {
+    border-color: rgba(77, 192, 181, .70);
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.125), 0 0 7px rgba(77, 192, 181, .40);
+
+}
+.form-control {
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.145);
+}
+.form-group .required .control-label:after {
+  content: '*';
+  color: red;
+}
+input,
+textarea, select {
+  background-color: rgba(255, 255, 255, 0.30) !important;
+  color: #222;
+}
+
+
+.text-sys {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.text-sys-sm {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.box-relative {
+  position: relative;
+}
+
+.box-absolute {
+  position: absolute;
+}
+
+
+
+.multi .multiselect__tags {
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.145);
+  font-size: 20px !important;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+input.multiselect__input {
+  height: 40px !important;
+  background-color: rgba(0,0,0,0) !important;
+}
+
+div.multiselect__tags:focus{
+  border-color: rgba(77, 192, 181, .70) !important;
+box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.125), 0 0 7px rgba(77, 192, 181, .40);
+}
+
+span.multiselect__placeholder {
+  font-size: 20px !important;
+  font-family: 'Nunito', sans-serif !important;
+  color: #333 !important;
+
+}
+
+.opa-4 {
+  opacity : 0.4 !important;
+}

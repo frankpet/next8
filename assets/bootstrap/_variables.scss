@@ -1,0 +1,55 @@
+// Body
+// Typography
+//$font-family-sans-serif: "Montserrat", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.2;
+
+// Grays
+$white:    #fff !default;
+$gray-100: #f8f9fa !default; // light
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default; // secondary
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default; // dark
+$gray-900: #212529 !default;
+$black:    #000 !default;
+$dark:    #212529 !default;
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+$theme-colors : (
+
+  primary: #3097D1,
+  secondary: $gray-600,
+  success: #2B7A78,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-800,
+
+  trans: rgba(245, 245, 245, 0),
+  lgrey : #F5F8FA,
+  mgrey: #ced4da,
+
+  caplight: #F5F8FA,
+  capdark: #505160,
+  capactive:#7DA638,
+  capbutton:#7DA638
+
+
+
+) !default;

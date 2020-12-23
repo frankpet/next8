@@ -1,0 +1,42 @@
+.toastuser {
+  padding: 14px 50px !important;
+
+  color : #000 !important;
+  font-size: 24px !important;
+  background-color: #FFFFFB !important;
+  border-radius: 6px !important;
+  border: 2px solid #8DB53C !important;
+  font-family: 'Montserrat', sans-serif !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  //letter-spacing: 0.1rem !important;
+}
+.toast {
+
+  padding: 14px 50px !important;
+  min-width: 470px !important;
+  max-width: 96vw !important;
+  margin: 0 auto;
+
+  text-align: center !important;
+  color : white !important;
+  font-size: 24px !important;
+  //background-color: var(--global-dark) !important;
+  border-radius: 6px !important;
+  border: 3px solid var(--global-light) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  letter-spacing: 0.1rem !important;
+
+}
+.toast-error {
+  padding: 14px 50px !important;
+
+  color : white !important;
+  font-size: 20px !important;
+  background-color: #100F0F !important;
+  border-radius: 6px !important;
+  border: 3px solid red !important;
+  font-family: 'Poppins', sans-serif !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  //letter-spacing: 0.1rem !important;
+}

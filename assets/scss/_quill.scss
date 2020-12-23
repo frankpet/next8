@@ -1,0 +1,83 @@
+
+/* Set droplist names - -item is the currently selected font, -label is the font's appearance in the droplist*/
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='']::before
+{
+  content: 'Default';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='montserrat']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='montserrat']::before
+{
+  content: 'montserrat';
+  font-family: 'Montserrat';
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='indie']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='indie']::before
+{
+  content: 'indie';
+  font-family: 'Indie Flower';
+  font-size : 18px;
+}
+
+.ql-font-montserrat {
+  font-family: 'Montserrat';
+}
+
+.ql-font-indie {
+  font-family: 'Indie Flower';
+}
+
+
+
+
+.ql-image-left {
+
+  img {
+    margin : 1em ;
+    display: inline;
+    float: left;
+    border-radius: 4px;
+  }
+}
+
+.ql-image-center {
+  clear:both;
+
+  img {
+    margin : auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    float: none;
+    border-radius: 4px;
+  }
+
+}
+
+.ql-image-right {
+  img {
+    margin : 0 0 1em 1em;
+    display: inline;
+    float: right;
+    border-radius: 4px;
+  }
+
+}
+
+option{
+    font-size:18px;
+    background-color:green;
+}
+option:before{
+    content: ">";
+    font-size:30px;
+    display:none;
+    padding-right:10px;
+    padding-left:5px;
+    color:#fff;
+}
+option:hover:before{
+    display:inline;
+}

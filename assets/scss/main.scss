@@ -1,0 +1,31 @@
+
+//@import 'variables';
+
+//bootstrap-vue
+//@import 'node_modules/bootstrap/scss/bootstrap';
+//@import 'node_modules/bootstrap-vue/src/index.scss';
+//@import 'bootfig';
+//vue-select
+//@import "vue-select/src/scss/vue-select.scss";
+
+//slick
+//@import 'node_modules/slick-carousel/slick/slick.css';
+
+// customize partials
+@import "buttons";
+@import "navigation";
+@import "helpers";
+@import "fonts";
+@import "dashboard";
+@import "animations";
+@import "transitions";
+
+@import "toast";
+@import "global";
+@import "table";
+@import "check";
+//@import "quill";
+
+@import "box";
+//@import "anim";
+//@import "trans";

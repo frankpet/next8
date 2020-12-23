@@ -1,0 +1,87 @@
+{
+  "name": "Name",
+  "create" : "Create",
+  "update" : "Update",
+  "auth" : {
+    "password" :"Password",
+    "login" :"Login",
+    "member" : "Member",
+    "name" : "Name",
+    "firstName" : "First name",
+    "lastName" : "Last name",
+    "username" : "Username",
+    "register" : "Register",
+    "email" : "Email",
+    "sign_up" : "Sign up",
+    "logged in":  " You are logged in",
+    "logged out":  " You are logged out",
+    "user" : "user",
+    "registered" : "You are registered",
+    "forgot" : "request new password",
+    "forgot password" : "forgot password ?",
+    "send" : "send"
+  },
+  "site" : {
+    "name" : "Site name",
+    "create" : "Create site",
+    "description" : "In case there is no template made already, this can be made here.",
+    "copied" : "The site is ready"
+  },
+  "init" : {
+    "description" : "In case there is no site made already, this can be made here.",
+    "link" : "Link a site to this app"
+  },
+  "account" : {
+    "change password" : "change password",
+    "current password" : "current password",
+    "new password" : "new password",
+    "confirm password" : "confirm password",
+    "change" : "change"
+  },
+  "table" : {
+    "search" : "search....",
+    "equals" : "equals",
+    "contains" : "contains",
+    "greater_than" : "greater than",
+    "less_than"  : "less than",
+    "starts_with" : "starts with",
+    "ends_with" : "ends with",
+    "quick_search" : "quick search in current page",
+    "page_records" : "records p/page",
+    "all" : "all","warning" : "let op" ,
+    "warning_delete" : "are you sure you want to permanently delete this item?" ,
+    "warning_resetpass" : "are you sure you want to change the password to :  - password - ?",
+    "warning" : "Pay attention !",
+    "no items created" : "No menu items have been created yet!",
+    "name" : "name"
+  },
+  "tables" : {
+    "users" : "Users",
+    "color patterns" : "Color patterns",
+    "templates" : "Templates",
+    "sites" :"Websites",
+    "partials" : "Partials",
+    "pages" : "Pages",
+    "menus" : "Menu's",
+    "section" : "section",
+    "page" : "page",
+    "blocks": "Blokken",
+    "fields" : "Fields",
+    "singles" : "Content (single)",
+    "info" : "template info",
+    "categories" : "Categories",
+    "category" : "category",
+    "types" : "Components",
+    "type" : "component",
+    "group" : "groep",
+    "active" : "active",
+    "markups" : "Markup content",
+    "markup" : "markup content"
+  },
+  "errors" : {
+    "input failed" : "There where errors on the input"
+  },
+  "components" : {
+    "test" : "testengels"
+  }
+}

@@ -1,0 +1,261 @@
+#pager {
+
+    height: 1400px;
+
+    -webkit-animation: schrinkPager 1.5s .1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    @-webkit-keyframes schrinkPager {
+     0% { height: 1400px;  }
+     100% { height: 0px;}
+   }
+  }
+
+
+
+  #pager2 {
+      height: 700px;
+
+      -webkit-animation: schrinkPager .35s 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+      @-webkit-keyframes schrinkPager {
+       0% { height: 700px;  }
+       100% { height: 0px;}
+     }
+  }
+
+#pager3 {
+  height: 1800px;
+
+  -webkit-animation: schrinkPager 1.3s  cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  @-webkit-keyframes schrinkPager {
+    0% { height: 1800px; }
+
+    50% { height: 1000px; }
+
+    100% { height: 0px;}
+  }
+}
+#pager5 {
+  height: 200vh;
+
+
+  -webkit-animation: defaultPager 3.6s  cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards,cloudSlide 5s linear infinite;
+  clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+  
+}
+@-webkit-keyframes cloudSlide {
+ from { background-position: 0 0;  }
+ to { background-position: -864px -540px;  }
+}
+
+//----------------------------------------------------------
+// page transitions
+.page-enter-active, .page-leave-active {
+  transition: all 250ms ms;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+  //transform: scale(0);
+  //transform: rotateX(360);
+}
+.data {
+  opacity : 1;
+}
+.data-enter-active,
+.data-leave-active {
+  transition: all .3s ;
+
+}
+.data-enter, .data-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  //margin-top: 100vh;
+  transform: translate3d(-100%, 0, 0);
+
+}
+
+
+.pfade {
+  opacity : 1;
+}
+.pfade-enter-active,
+.pfade-leave-active {
+  transition: all .3s ;
+
+}
+.pfade-enter, .pfade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  //margin-top: 100vh;
+  transform: translate3d(0, 100%, 0);
+
+}
+
+//-----------------------------
+.imgfade {
+  opacity : 1;
+}
+.imgfade-enter-active,
+.imgfade-leave-active {
+  transition: all .6s ;
+
+}
+.imgfade-enter, .imgfade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  //margin-top: 100vh;
+  //transform: translate3d(-100%, 0, 0);
+
+}
+//-----------------------
+.pdata-enter-active,
+.pdata-leave-active {
+  transition: all .9s .2s ease-in-out;
+
+}
+.pdata-enter, .pdata-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  //margin-top: 100vh;
+  transform: translate3d(0, 100%, 0);
+
+}
+
+//-------------------------------------------------------------
+
+// turning up to vissible
+.ani-turn {
+  display: inline-block;
+  animation: turn .9s linear forwards .4s;
+  transform: rotateX(-90deg);
+  //letter-spacing: 0.10em;
+  //position: relative;
+  //overflow: hidden;
+}
+
+@keyframes turn {
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+
+//----------------------------------------------------------
+
+.ami-fade-down {
+  -webkit-animation: fadeInDown .39s 0.47s;
+  animation: fadeInDown 0.39s 0.47s;
+  //-webkit-animation-duration: 1s;
+  //animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+//-----------------------
+
+.toastFadeUp {
+  -webkit-animation: fadeInUp .55s 0.25s;
+  animation: fadeInUp 0.55s 0.25s;
+  //-webkit-animation-duration: 1s;
+  //animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    height : 800px;
+    transform: translate3d(10%, 100%, 0) scale(0);
+  }
+  55% {
+    opacity: .85;
+    transform: translate3d(0, 0, 0) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+
+    transform: translate3d(0, 0, 0) ;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(200%, 0, 0) ;
+
+
+  }
+}
+
+//-----------------------
+
+.toastFadeRight {
+  -webkit-animation: fadeRight .45s 0.37s;
+  animation: fadeRight 0.45s 0.37s;
+  //-webkit-animation-duration: 1s;
+  //animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeRight {
+  0% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+
+  }
+}
+//-----------------------------------------------------------------/
+
+// admin rotating wheel
+.ani-rotate {
+  opacity: 0.03;
+
+  animation: objRotate 10s linear infinite;
+}
+
+@keyframes objRotate {
+  from {
+
+    transform: rotate(0deg);
+  }
+  to {
+
+    transform: rotate(360deg);
+  }
+}
+.ani-fade {
+  opacity: 0;
+  animation: objFade 1s .7s forwards ;
+}
+
+@keyframes objFade {
+  from {
+
+    opacity: 0;
+  }
+  to {
+
+    opacity: 1;
+  }
+}

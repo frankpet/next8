@@ -1,0 +1,121 @@
+{
+  "name": "naam",
+  "create" : "Maak",
+  "update" : "wijzig",
+  "none" : "geen",
+  "auth" : {
+    "password" :"Wachtwoord",
+    "login" :"Log in",
+    "member" : "Abonnee",
+    "name" : "Naam",
+    "firstName" : "Voornaam",
+    "lastName" : "Achternaam",
+    "username" : "Gebruikersnaam",
+    "register" : "Registreer",
+    "email" : "Email",
+    "sign_up" : "Aanmelden",
+    "logged in":  " Je bent ingelogd",
+    "logged out":  " Je bent uitgelogd",
+    "user" : "gebruiker",
+    "registered" : "Je bent geregistreerd",
+    "forgot" : "verzoek nieuw wachtwoord",
+    "forgot password" : "wachtwoord vergeten ?",
+    "send" : "verzend",
+    "regards" : "Met vriendelijke groet,"
+  },
+  "com" : {
+    "desc" : {
+      "dashboard-nav" : "dashboard navigatie",
+      "menu-1" : "menu items + dropdown items",
+      "test" : "test component"
+    },
+    "name" : {
+      "dashboard-nav" : "dashboard navigatie",
+      "menu-1" : "menu (items + dropdown items)",
+      "test" : "test component"
+    }
+  },
+  "site" : {
+    "name" : "Site naam",
+    "create" : "Maak site aan",
+    "description" : "Als er nog geen template aanwezig is, kan deze hier worden aangemaakt.",
+    "copied" : "De site is aangemaakt"
+  },
+  "init" : {
+    "description" : "Als er nog geen site aanwezig is, kan deze hier worden aangemaakt.",
+    "link" : "Link onderstaand een site aan deze app"
+  },
+  "account" : {
+    "change password" : "wijzig wachtwoord",
+    "current password" : "huidig wachtwoord",
+    "new password" : "nieuw wachtwoord",
+    "confirm password" : "bevestig wachtwoord",
+    "change" : "wijzig"
+  },
+  "table" : {
+    "search" : "zoek....",
+    "equals" : "is gelijk aan",
+    "contains" : "bevat",
+    "greater_than" : "is groter dan",
+    "less_than"  : "is kleiner dan",
+    "starts_with" : "begint met",
+    "ends_with" : "eindigt met",
+    "quick_search" : "snel zoeken in huidige pagina",
+    "page_records" : "records p/pagina" ,
+    "all" : "alle" ,
+    "warning" : "let op !" ,
+    "warning_delete" : "weet U zeker dat U dit item definitief wil verwijderen ?",
+    "warning_resetpass" : "Weet U zeker dat U het wachtwoord wilt wijzigen!",
+    "no items created" : "Er zijn nog geen menu-items aangemaakt!",
+    "name" : "naam"
+  },
+  "tables" : {
+    "select" : "selecteer",
+    "users" : "Gebruikers",
+    "user" : "Gebruiker",
+    "patterns" : "Kleur sjablonen",
+    "templates" : "Web sjablonen",
+    "sites" :"Websites",
+    "partials" : "Onderdelen",
+    "pages" : "Pagina's",
+    "menus" : "Menu's",
+    "section" : "sectie",
+    "page" : "pagina",
+    "blocks": "Blokken",
+    "fields" : "Velden",
+    "singles" : "Inhoud (enkel)",
+    "markups" : "Opmaak content",
+    "markup" : "opmaak content",
+    "info" : "sjabloon info",
+    "categories" : "Categorieën",
+    "category" : "categorie",
+    "types" : "Componenten",
+    "type" : "component",
+    "group" : "groep",
+    "active" : "aktief",
+    "roles" : "Gebruikersrollen",
+    "role" : "Gebruikersrol",
+    "permissions" : "Rechten",
+    "changePassword" : "Wijzig wachtwoord"
+  },
+  "roles" : {
+    "system" : "system",
+    "member" : "member"
+  },
+  "permissions" : {
+    "users" : "Gebruikers",
+    "sites" : "Websites",
+    "roles" : "Gebruikersrollen"
+  },
+  "errors" : {
+    "input failed" : "Er waren fouten bij de invoer"
+  },
+  "messages" : {
+    "updated" : "is gewijzigd",
+    "errors" : "Er zijn fouten opgetreden!",
+    "assign role registration" : "Geef rol bij registratie"
+  },
+  "components" : {
+    "test" : "test"
+  }
+}

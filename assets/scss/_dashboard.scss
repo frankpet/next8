@@ -1,0 +1,24 @@
+ul.nodecoration {
+  list-style: none;
+}
+
+@media (min-width: 200px) {
+  .dashboard-sidebar {
+    position:fixed;
+    z-index: 99;
+    height: 80vh;
+    width:350px;
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 4px 0 4px -1px rgba(31, 73, 125, 0.1);
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-left: -320px;
+    transition: all .2s  ease-in-out;
+
+  }
+  .dashboard-sidebar:hover {
+    margin-left: 0;
+  }
+}

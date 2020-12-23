@@ -1,0 +1,115 @@
+button:focus {outline:0;}
+
+.circle {
+    box-shadow: 0 3px 5px #aaa;
+    font-size: 1.6em;
+    width: 1.6em;
+    line-height: 1.6em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+    padding: 5px ;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+       opacity: 0.7;
+  }
+}
+.btn-icon{
+  width: 46px;
+
+  border-radius:5px;
+  padding-top:3px;
+  padding-left: 9px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.btn-custom{
+  //width: 46px;
+
+  border-radius:5px;
+  padding-top:3px;
+  padding-left: 9px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.btn-round {
+  border-radius: 50px !important;
+  font-size:20px !important;
+  letter-spacing: 1px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+// file upload
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    hover: {
+      color: red !important;
+    }
+}
+.custom-file-upload:hover {
+  color: white !important;
+  //background-color: $dark !important;
+  border-radius:4px;
+  i {
+    color:white !important;
+  }
+}
+// input slider
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Name",
+  "create" : "Machen",
+  "update" : "ändern",
+  "auth" : {
+    "password" :"Passwort",
+    "login" :"Anmeldung",
+    "member" : "Mitglied",
+    "name" : "Name",
+    "firstName" : "Vorname",
+    "lastName" : "Nachname",
+    "username" : "Benutzername",
+    "register" : "Registrier",
+    "email" : "Email",
+    "sign_up" : "Melde dich an",
+    "logged in":  " Sie sind angemelded",
+    "logged out":  " Sie sind abgemelded",
+    "user" : "benutzer",
+    "registered" : "Sie sind registriert",
+    "forgot" : "anfrage neues passwort",
+    "forgot password" : "passwort vergessen ?",
+    "send" : "senden"
+  },
+  "site" : {
+    "name" : "Seite name",
+    "create" : "Seite erstellen",
+    "description" : "Falls noch keine template erstellt wurde, kann diese hier erstellt werden.",
+    "copied" : "Die seite ist erstellt"
+  },
+  "init" : {
+    "description" : "Falls noch keine site erstellt wurde, kann diese hier erstellt werden.",
+    "link" : "Verlinken Sie eine Website mit dieser App "
+  },
+  "account" : {
+    "change password" : "ändern passwort",
+    "current password" : "Jetziges passwort",
+    "new password" : "Neues passwort",
+    "confirm password" : "bestätigen passwort",
+    "change" : "ändern"
+  },
+  "table" : {
+    "search" : "suche....",
+    "equals" : "ist gleich zu",
+    "contains" : "enthält",
+    "greater_than" : "größer als",
+    "less_than"  : "weniger als",
+    "starts_with" : "beginnt mit",
+    "ends_with" : "ended mit",
+    "quick_search" : "Schnellsuche in aktuellen Seite",
+    "page_records" : "records p/seite",
+    "all" : "alle" ,
+    "warning_delete" : "Möchtest du diesen Item wirklich dauerhaft löschen?" ,
+    "warning_resetpass" : "Möchtest du das paswort andern zu : - password - " ,
+    "warning" : "Bitte beachten Sie!",
+    "no items created" : "Es wurden noch keine Menüpunkte erstellt!",
+    "name" : "name"
+  },
+  "tables" : {
+    "users" : "Benutzers",
+    "color patterns" : "Farb vorlagen",
+    "templates" : "Web vorlagen",
+    "sites" :"Webseiten",
+    "partials" : "Teilen",
+    "pages" : "Seiten",
+    "menus" : "Menu's",
+    "section" : "abschnitt",
+    "page" : "seite",
+    "blocks": "Blöcke",
+    "fields" : "Felder",
+    "singles" : "Inhalt (single)",
+    "info" : "vorlage info",
+    "categories" : "Kategorien",
+    "category" : "kategorie",
+    "types" : "Komponenten",
+    "type" : "Komponent",
+    "group" : "gruppe",
+    "active" : "aktiv",
+    "markups" : "Formatierung inhalt",
+    "markup" : "formatierung inhalt"
+  },
+  "errors" : {
+    "input failed" : "Dort gab es Fehler bei der Eingabe."
+  }
+}

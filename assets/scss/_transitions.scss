@@ -1,0 +1,150 @@
+.startfade {
+  opacity: 1;
+}
+
+.startfade-enter-active, .startfade-leave-active {
+  transition: opacity .6s ;
+}
+.startfade-enter, .startfade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+//--------------------------
+.ifade {
+  opacity: 1;
+}
+
+.ifade-enter-active,
+.ifade-leave-active {
+  transition-duration: 5.3s 10.5s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.ifade-enter,
+.ifade-leave-active {
+  opacity: 0
+}
+
+//---------------------------
+.hider {
+  //background-color: yellow;
+  max-height: 0;
+  height: 1400px;
+  opacity: 1;
+
+}
+.hider-enter-active {
+  transition: all .15s ;
+}
+
+.hider-leave-active {
+  transition: all .15s ;
+
+}
+.hider-enter, .hider-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  max-height:1400px;
+
+
+}
+
+//--------------------------
+
+.first-enter-active {
+  transition: all .55s .1s;
+}
+
+.first-leave-active {
+  transition: all .35s .1s;
+
+}
+.first-enter, .first-leave-to  {
+
+  max-height:1400px;
+
+
+}
+//----------
+
+.pfade {
+  opacity: 1;
+  margin-left:0;
+}
+.pfade-enter-active,
+.pfade-leave-active {
+  transition: all .3s .25s;
+}
+.pfade-enter, .pfade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  margin-left: -100px;
+}
+
+//------------------
+// set height style on auto  and max-height to high for transition element
+
+
+//------------------
+
+.next-enter {
+  opacity: 0;
+  transform: scale3d(2, 0.5, 1) translate3d(400px, 0, 0);
+}
+
+.next-enter-to { transform: scale3d(0.7, 1, 1); opacity:1}
+.next-enter-active,
+.next-leave-active { transition: 0.61s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+.next-leave { transform: scale3d(1, 1, 1); }
+
+.next-leave-to {
+  opacity: 0;
+  transform: scale3d(2, 0.5, 1) translate3d(-400px, 0, 0);
+}
+
+
+//-------------
+
+.expand {
+  height: auto;
+  max-height: 1250px;
+  opacity: 1;
+}
+
+.expand-enter-active {
+  transition: max-height 0.3s ease-in-out, opacity 0.7s 0.2s;
+  overflow: hidden;
+}
+
+.expand-leave-active {
+  transition: opacity 0.2s, max-height 0.1s 0.2;
+  overflow: hidden;
+}
+
+.expand-enter,
+.expand-leave-to {
+  max-height: 0;
+  opacity: 0;
+}
+
+//------
+
+.ewidth {
+  width: auto;
+  max-width:300px;
+  opacity: 1;
+}
+
+.ewidth-enter,
+.exwidth-leave-to {
+  max-width: 0;
+  opacity: 0;
+}
+
+.ewidth-enter-active {
+  transition: max-width 0.2s ease-in-out, opacity 0.7s 0.2s;
+  overflow: hidden;
+}
+
+.ewidth-leave-active {
+  transition: opacity 0.2s, max-width 0.1s 0.2;
+  overflow: hidden;
+}
